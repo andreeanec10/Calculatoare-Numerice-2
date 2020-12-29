@@ -1,0 +1,46 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu_isim_beh.exe -prj /media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu_beh.prj work.unitTestCpu work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/state_machine.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/signal_generation_unit.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/reg_file_interface_unit.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/decode_unit.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/bus_interface_unit.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/sram.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/rom.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/register_file.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/control_unit.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/alu.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/cpu.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTest.v" into library work
+Analyzing Verilog file "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/cpu.v" Line 138: Port debug_register_X is not connected to this instance
+WARNING:HDLCompiler:189 - "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/cpu.v" Line 155: Size mismatch in connection of port <debug_register_Y>. Formal port size is 16-bit while actual signal size is 7-bit.
+Completed static elaboration
+Fuse Memory Usage: 97680 KB
+Fuse CPU Usage: 850 ms
+Compiling module state_machine
+Compiling module decode_unit(INSTR_WIDTH=16)
+Compiling module signal_generation_unit
+Compiling module reg_file_interface_unit(INSTR_WI...
+Compiling module bus_interface_unit(DATA_WIDTH=8,...
+Compiling module control_unit(INSTR_WIDTH=16,I_AD...
+Compiling module alu(DATA_WIDTH=8)
+Compiling module rom(DATA_WIDTH=16,ADDR_WIDTH=10)
+Compiling module dual_port_sram(DATA_WIDTH=8,ADDR...
+Compiling module sram(DATA_WIDTH=8,ADDR_WIDTH=7)
+Compiling module cpu
+Compiling module unitTest
+Compiling module unitTestCpu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable /media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu_isim_beh.exe
+Fuse Memory Usage: 1706800 KB
+Fuse CPU Usage: 920 ms
+GCC CPU Usage: 1430 ms

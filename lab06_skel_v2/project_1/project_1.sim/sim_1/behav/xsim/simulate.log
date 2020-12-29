@@ -1,0 +1,18 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Start cpu ...
+Legend:
+OPERATION OP1, OP2 - STAGE: OK <=> PASS
+OPERATION OP1, OP2 - STAGE: FAILED => EXPECTED_VALUE VS COMPUED_VALUE <=> FAIL
+Init regs..
+
+PC =>    0
+LDI R20, 255 - ID: FAILED
+LDI R28,   3 - WB: FAILED => (255) vs (  3)
+
+PC =>    1
+OUT           6, R28 - ID: FAILED, check opcode_rr:          28 vs 20
+
+PC =>    2
+IN R17,           6 - ID: FAILED, check opcode_type:          51 vs               22
+IN R17,           6 - WB: FAILED, check writeback_value :   x vs   1

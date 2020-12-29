@@ -1,0 +1,9 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d9137d6e5a944e7f94081b6c33bc18e2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot unitTestCpu_behav xil_defaultlib.unitTestCpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 16 for port 'debug_register_Y' [C:/Users/Andreea/Desktop/lab06_skel_v2/cpu.v:164]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

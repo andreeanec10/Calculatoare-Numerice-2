@@ -1,0 +1,17 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/alu.v,1603845191,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/cpu.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,alu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/checker.v,1540092232,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/checker_view.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,checker,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/checker_view.v,1603785233,verilog,,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,checker_view,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/control_unit.v,1603782738,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/alu.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,control_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/cpu.v,1540078496,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/checker.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,cpu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/decode_unit.v,1603845522,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/rom.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,decode_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,1540089598,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/reg_file_interface_unit.v,1508094878,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/decode_unit.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,reg_file_interface_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/register_file.v,1508094878,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/control_unit.v,,dual_port_sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/rom.v,1571112846,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/register_file.v,,rom,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/signal_generation_unit.v,1508094878,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/reg_file_interface_unit.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,signal_generation_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/state_machine.v,1508094878,verilog,,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/signal_generation_unit.v,C:/Users/Andreea/Desktop/rezolvat_probleme/lab02_skel/defines.vh,state_machine,,,../../../../../,,,,,

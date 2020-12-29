@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../" \
+"../../../../../state_machine.v" \
+"../../../../../signal_generation_unit.v" \
+"../../../../../reg_file_interface_unit.v" \
+"../../../../../gpio_unit.v" \
+"../../../../../decode_unit.v" \
+"../../../../../bus_interface_unit.v" \
+"../../../../../sram.v" \
+"../../../../../rom.v" \
+"../../../../../register_file.v" \
+"../../../../../gpio.v" \
+"../../../../../control_unit.v" \
+"../../../../../alu.v" \
+"../../../../../cpu.v" \
+"../../../../../nexys_top.v" \
+"../../../../../unitTest.v" \
+"../../../../../unitTestCpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu_isim_beh.exe" -prj "/media/teo/2TB/Chestii/Poli/An_3/CN2/Laburi/lab03/sol/unitTestCpu_beh.prj" "work.unitTestCpu" "work.glbl" 

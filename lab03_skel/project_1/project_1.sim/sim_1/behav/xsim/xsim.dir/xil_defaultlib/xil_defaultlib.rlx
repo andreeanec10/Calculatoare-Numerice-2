@@ -1,0 +1,19 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Anul III/Sem I/CN2/lab03_skel/alu.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/cpu.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,alu,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/bus_interface_unit.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/sram.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,bus_interface_unit,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/control_unit.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/alu.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,control_unit,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/cpu.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/unitTest.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,cpu,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/decode_unit.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/bus_interface_unit.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,decode_unit,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,1571547327,verilog,,,,,,,,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/reg_file_interface_unit.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/decode_unit.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,reg_file_interface_unit,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/register_file.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/control_unit.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,dual_port_sram,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/rom.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/register_file.v,,rom,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/signal_generation_unit.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/reg_file_interface_unit.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,signal_generation_unit,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/sram.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/rom.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,sram,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/state_machine.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/signal_generation_unit.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,state_machine,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/unitTest.v,1571547327,verilog,,D:/Anul III/Sem I/CN2/lab03_skel/unitTestCpu.v,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,unitTest,,,../../../../../,,,,,
+D:/Anul III/Sem I/CN2/lab03_skel/unitTestCpu.v,1571547327,verilog,,,D:/Anul III/Sem I/CN2/lab03_skel/defines.vh,unitTestCpu,,,../../../../../,,,,,

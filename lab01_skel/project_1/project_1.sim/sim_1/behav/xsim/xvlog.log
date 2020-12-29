@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task01.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task01
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task02.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task02
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task03.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task03
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task03_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task04
+WARNING: [VRFC 10-965] invalid size of integer constant literal [D:/Anul III/Sem I/CN2/lab01_skel/task04.v:72]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task03
+INFO: [VRFC 10-2458] undeclared symbol addres, assumed default net type wire [D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v:33]
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'task03' [D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/task04_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module task04_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_task1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_task2

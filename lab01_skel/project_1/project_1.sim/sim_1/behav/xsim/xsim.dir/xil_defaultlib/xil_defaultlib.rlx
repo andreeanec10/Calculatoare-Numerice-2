@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task1.v,1603211966,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task2.v,,sim_task1,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task2.v,1603752115,verilog,,,,sim_task2,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/test_1.v,1603208879,verilog,,,,test_1,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v,1603752740,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/task04_test.v,,task03,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task01.v,1603211904,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/task02.v,,task01,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task02.v,1603750043,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/task03.v,,task02,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task03.v,1603038448,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/task03_test.v,,,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task03_test.v,1603752869,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/task04.v,,test_sram,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task04.v,1603755473,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v,,task04,,,,,,,,
+D:/Anul III/Sem I/CN2/lab01_skel/task04_test.v,1603039194,verilog,,D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sim_1/new/sim_task1.v,,task04_test,,,,,,,,

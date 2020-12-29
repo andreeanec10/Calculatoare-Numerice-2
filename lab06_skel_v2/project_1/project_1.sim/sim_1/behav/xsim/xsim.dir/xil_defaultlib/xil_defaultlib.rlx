@@ -1,0 +1,26 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Andreea/Desktop/lab06_skel_v2/alu.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/cpu.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,alu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/bus_interface_unit.v,1606339820,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/sram.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,bus_interface_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/control_unit.v,1606340467,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/alu.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,control_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/cpu.v,1541873204,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/nexys_top.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,cpu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/decode_unit.v,1606340197,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/bus_interface_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,decode_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,1541878328,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/gpio.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/control_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,io_sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/gpio_unit.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/decode_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,gpio_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/nexys_top.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/unitTest.v,,nexys_top,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/reg_file_interface_unit.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/gpio_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,reg_file_interface_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/register_file.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/gpio.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,dual_port_sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/rom.v,1606342381,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/register_file.v,,rom,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/signal_generation_unit.v,1606340030,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/reg_file_interface_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,signal_generation_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/sram.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/rom.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/state_machine.v,1510529058,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/signal_generation_unit.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,state_machine,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/test_in.vh,1541881886,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/test_ldi.vh,1541872537,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/test_out.vh,1541881877,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/unitTest.v,1541879956,verilog,,C:/Users/Andreea/Desktop/lab06_skel_v2/unitTestCpu.v,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh;C:/Users/Andreea/Desktop/lab06_skel_v2/unit_tests.vh,unitTest,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/unitTestCpu.v,1541808364,verilog,,,C:/Users/Andreea/Desktop/lab06_skel_v2/defines.vh,unitTestCpu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab06_skel_v2/unit_tests.vh,1541807888,verilog,,,C:/Users/Andreea/Desktop/lab06_skel_v2/test_ldi.vh;C:/Users/Andreea/Desktop/lab06_skel_v2/test_in.vh;C:/Users/Andreea/Desktop/lab06_skel_v2/test_out.vh,,,,,,,,,

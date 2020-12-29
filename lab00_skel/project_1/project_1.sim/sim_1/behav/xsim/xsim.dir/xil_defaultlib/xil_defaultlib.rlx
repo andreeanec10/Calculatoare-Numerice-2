@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Anul III/Sem I/CN2/lab00_skel/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task01a.v,1603136340,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task01b.v,,task01a,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task01a_test.v,1570505895,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task01b_test.v,,task01a_test,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task01b.v,1603025975,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task02.v,,task01b,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task01b_test.v,1570506138,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task02_test.v,,task01b_test,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task02.v,1603133572,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task03.v,,task02,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task02_test.v,1601832798,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task03_test.v,,task02_test,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task03.v,1603034777,verilog,,D:/Anul III/Sem I/CN2/lab00_skel/task01a_test.v,,task03,,,,,,,,
+D:/Anul III/Sem I/CN2/lab00_skel/task03_test.v,1601833064,verilog,,,,task03_test,,,,,,,,

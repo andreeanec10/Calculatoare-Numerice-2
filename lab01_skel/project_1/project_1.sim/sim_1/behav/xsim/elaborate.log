@@ -1,0 +1,20 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2d1fe8b40f3d4e568aa63d149d63ad1f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot task04_test_behav xil_defaultlib.task04_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'address' [D:/Anul III/Sem I/CN2/lab01_skel/project_1/project_1.srcs/sources_1/new/task03.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Anul III/Sem I/CN2/lab01_skel/task01.v" Line 1. Module task01 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Anul III/Sem I/CN2/lab01_skel/task02.v" Line 1. Module task02 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.task01
+Compiling module xil_defaultlib.task02
+Compiling module xil_defaultlib.task03
+Compiling module xil_defaultlib.task04
+Compiling module xil_defaultlib.task04_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot task04_test_behav

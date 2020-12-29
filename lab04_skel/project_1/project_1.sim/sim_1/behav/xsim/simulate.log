@@ -1,0 +1,46 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Start cpu ...
+Legend:
+OPERATION OP1, OP2 - STAGE: OK <=> PASS
+OPERATION OP1, OP2 - STAGE: FAILED => EXPECTED_VALUE VS COMPUED_VALUE <=> FAIL
+Init regs..
+
+PC =>   0
+LDI R16,   5 - ID: OK
+
+PC =>   1
+LDI R16,   5 - WB: OK (R16 =   5)
+LDI R17,  15 - ID: OK
+
+PC =>   2
+LDI R17,  15 - WB: OK (R17 =  15)
+PUSH R16 - ID: OK
+PUSH R16 - MEM: OK (bus_address = 7f)
+
+PC =>   3
+PUSH R17 - ID: OK
+PUSH R17 - MEM: OK (bus_address = 7e)
+
+PC =>   4
+MOV R30, R16 - ID: OK
+
+PC =>   5
+MOV R30, R16 - WB: OK (R30 =   5) 
+SUB R30, R17 - ID: OK
+SUB R30, R17 - EX: OK (alu_out = -10)
+
+PC =>   6
+SUB R30, R17 - WB: OK (R30 = -10)
+BRBS LABEL - ID: OK (FLAG: (001)). Check defines.vh.
+
+PC =>   7
+BRBS LABEL - ID: OK (FLAG: (010)). Check defines.vh.
+
+PC =>  10
+SUB R17, R16 - ID: OK
+SUB R17, R16 - EX: OK (alu_out =  10)
+
+PC =>  11
+SUB R17, R16 - WB: OK (R17 =  10)
+RJMP LABEL - ID: OK
