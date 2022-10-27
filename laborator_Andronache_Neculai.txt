@@ -1,0 +1,76 @@
+ex 13
+TCCR0A = 0100 0010 ->0x42
+TCCR0B = 0000 0001 ->0x01
+OCR0A = 55
+
+ldi r17, 0x42
+out TCCR0A, r17
+ldi r17, 0x01
+out TCCR0A, r17
+ldi r17, 55
+out TCCR0A, r17
+
+ex16
+
+T = 1/f         |=>clk = 10^(-8)s
+100MHz = 10^8Hz |
+
+Tpwm = 2048 * 10^(-8)                         Tpwm
+Tpwm = (top+1) * prescale * clk => top + 1= ______________= 2048/prescale    |
+                                            clk * prescale                   |=>prescale = 8
+										                   -dar top + 1 = 256|
+														   
+Din documenta am gasit ca
+TCCR0A = 10000011 = 0x83
+TCCR0B = 00000000 = 0x00
+
+factor de umplere 1/2 =>OCR0A = 256/2 - 1 = 128 - 1 = 127
+
+ldi r16, 0x83
+out TCCR0A, r16
+ldi r16, 0x00
+out TCCR0B, r16
+ldi r16, 127
+out OCR0A, r16														   
+
+ex17
+
+ldi r17, 255
+out ddra, r17
+ldi r17, 0x4c
+out porta, r17
+
+ldi r17, 0
+out ddrb, r17
+in r18, pinb
+ldi r19, 1
+or r18, r19
+brbs skip, 1
+sbi porta, 0
+skip:
+
+ex18
+
+sum_union:
+	pop r16 |adresa de return
+	pop r17 |
+	pop r18
+	pop r19
+	push r17
+	push r16
+	or r18, r19
+	
+	ldi r21, 0 ->salvez suma
+	ldi r22, 0 ->numar la ce numar am ajuns
+	
+	loop:
+		ldi r20, 1 ->masca
+		and r20, r18
+		brbs skip_sum, 1
+		add r21, r22
+		
+	skip_sum:
+		lsr r18
+		brbs skip_loop, 1
+		rjmp loop
+	skip_loop:

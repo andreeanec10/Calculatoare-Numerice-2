@@ -1,0 +1,23 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Andreea/Desktop/lab09_skel/alu.v,1610404350,verilog,,C:/Users/Andreea/Desktop/lab09_skel/cpu.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,alu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/bus_interface_unit.v,1610404356,verilog,,C:/Users/Andreea/Desktop/lab09_skel/sram.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,bus_interface_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/control_unit.v,1610570564,verilog,,C:/Users/Andreea/Desktop/lab09_skel/alu.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,control_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/cpu.v,1610421850,verilog,,C:/Users/Andreea/Desktop/lab09_skel/nexys_top.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,cpu,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/cpu_test.v,1610404364,verilog,,,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,cpu_test,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/decode_unit.v,1610570289,verilog,,C:/Users/Andreea/Desktop/lab09_skel/bus_interface_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,decode_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/defines.vh,1610404374,verilog,,,,,,,,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/gpio.v,1610421816,verilog,,C:/Users/Andreea/Desktop/lab09_skel/control_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,io_sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/gpio_unit.v,1610404380,verilog,,C:/Users/Andreea/Desktop/lab09_skel/decode_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,gpio_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/interrupt_controller.v,1610559584,verilog,,C:/Users/Andreea/Desktop/lab09_skel/gpio_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,interrupt_controller,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/nexys_top.v,1610411876,verilog,,C:/Users/Andreea/Desktop/lab09_skel/cpu_test.v,,nexys_top,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/reg_file_interface_unit.v,1610404400,verilog,,C:/Users/Andreea/Desktop/lab09_skel/interrupt_controller.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,reg_file_interface_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/register_file.v,1610404402,verilog,,C:/Users/Andreea/Desktop/lab09_skel/gpio.v,,dual_port_sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/rom.v,1610413282,verilog,,C:/Users/Andreea/Desktop/lab09_skel/register_file.v,,rom,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/signal_generation_unit.v,1610413248,verilog,,C:/Users/Andreea/Desktop/lab09_skel/reg_file_interface_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,signal_generation_unit,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/sram.v,1610404410,verilog,,C:/Users/Andreea/Desktop/lab09_skel/rom.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,sram,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/state_machine.v,1610404414,verilog,,C:/Users/Andreea/Desktop/lab09_skel/signal_generation_unit.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,state_machine,,,../../../../../,,,,,
+C:/Users/Andreea/Desktop/lab09_skel/timer_unit.v,1610413148,verilog,,C:/Users/Andreea/Desktop/lab09_skel/state_machine.v,C:/Users/Andreea/Desktop/lab09_skel/defines.vh,timer_unit,,,../../../../../,,,,,
